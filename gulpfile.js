@@ -81,6 +81,13 @@ gulp.task("angularTemplates",["parseJS"],function(){
 
 });
 
+gulp.task("watch",function(){
+    gulp.watch("./src/**/*.js", ["parseJS","buildJS"]);
+    gulp.watch("./src/styles/*.scss",["sass"]);
+    gulp.watch("./src/**/*.template.html",["parseJS","buildJS","angularTemplates"]);
+    gulp.watch("./src/index.html",["parseJS","buildJS","angularTemplates","index"]);
+});
+
 
 
 

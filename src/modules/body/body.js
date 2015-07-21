@@ -10,7 +10,7 @@ angular.module("bodyModule",function($scope){
         restrict : "A",
         scope : {},
         link : function(scope,element,attrs){
-            scope.name = "Some Kind Of Test Lorem Ipsum and Stuff";
+            scope.name = "Some Kind Of Test Lorem Ipsum and Stuff AND TEST AND ANOTHER TEST AND";
         }
     }
 });
