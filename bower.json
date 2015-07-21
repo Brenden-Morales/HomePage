@@ -1,0 +1,19 @@
+{
+  "name": "HomePage",
+  "version": "0.0.0",
+  "authors": [
+    "Brenden Morales <brenden@somethinglikecorkscrews.com>"
+  ],
+  "description": "Home Page / blog",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.4.3"
+  }
+}
